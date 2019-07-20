@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Online Blood Bank</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="userid" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password">
+            <input type="submit" onclick="check(this.form)" value="Login">
+            <script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.userid.value == "Rohan" && form.pwd.value == "qwerty1"||form.userid.value == "Pratiyaksh" && form.pwd.value == "qwerty2")
+      {
+        window.open('home.html')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Username")/*displays error message*/
+      }
+    }
+</script>
+            
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>

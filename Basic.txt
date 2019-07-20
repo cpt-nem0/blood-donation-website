@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Explore the World of Novels</title>
+<style>
+.Container
+{ 
+ background-attachment:scroll;
+ background-color:rgb(255, 255, 255); 
+ margin-left:89.5px;
+ margin-right:89.5px;
+ max-width:1170px;
+ width:1170px;
+}
+.header
+{
+ background-attachment:scroll;
+ background-color:rgb(42, 41, 41);
+ height:135px;
+ line-height:18.5714px;
+ text-align:center;
+ width:1170px; 
+}
+.nav
+{
+background-color:rgb(42, 41, 41);
+height:41px;
+line-height:26.4px;
+width:1170px;
+}
+.footer
+{
+ background-color:rgb(51, 51, 51);
+ height:294.25px;
+ line-height:24px;
+ width:1170px;
+ text-align:center;
+}
+.f1
+{
+color:rgb(238, 238, 238);
+float:left;
+height:227.5px;
+text-align:center;
+width:585px;
+font-family:roboto, sans-serif;
+font-size:15px;
+}
+.f2
+{
+float:left;
+height:161.75px;
+text-align:center;
+width:585px;
+}
+.content
+{
+font-family:roboto, sans-serif;
+font-size:15px;
+max-width:1170px;
+width:1170px;
+}
+</style>
+</head>
+<body background="bg.jpg">
+<div class="container">
+  <div class="header">
+  <br>
+  <h1 align="center"><font face="Monotype Corsiva" color="Purpule"><u>My Novel World</u></font></h1>
+  <p><font color="#e7e7e7">Know about popular Light Novels</font></p>
+  </div>
+  <hr/color="black">
+  <div class="nav">
+  <font face="Times New Roman">
+  <a href=Website.html><input type=Button Value="Home"></a>
+  <a href=2.html><input type=Button Value="Novels"></a>
+  <a href=3.html><input type=Button Value="Rankings"></a>
+  <a href=4.html><input type=Button Value="Forums"></a>
+  <a href=5.html><input type=Button Value="About Us"></a>
+  </font>
+  </div>
+
+  <div class="footer">
+   <div class="f1">
+     <h3>Social Media</h3>
+     <p>Are you checking facebook or twitter constantly? 
+        <br>
+        Keep yourself updated through social media! 
+     </p>
+     <img src="FandT.jpg">
+   </div>
+   <div class="f2">
+    <br>
+    <img src="Discord.jpg">
+   </div>
+    <br>
+    <p>
+    <font color="white">Copyright © 2018-.. My Novel World. All rights reserved.</font>
+    </p>
+  </div>
+</div>
+</body>
+</html>
